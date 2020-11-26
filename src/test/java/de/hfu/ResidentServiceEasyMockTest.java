@@ -17,9 +17,9 @@ public class ResidentServiceEasyMockTest {
 	@Test
 	public void easyMockTest() throws ResidentServiceException{
 		
-		Resident resident1 = new Resident("Josef", "Maier", "Kronstraße 1", "Weigheim" , new Date(1983-05-17) );
-		Resident resident2 = new Resident("Günter", "Papenheimer", "Weinstraße 231", "Weingarten" , new Date(1999-02-27) );
-		Resident resident3 = new Resident("Jaqueline", "Guldi", "Siegesstraße 43", "Berlin" , new Date(1956-11-05) );
+		Resident resident1 = new Resident("Josef", "Maier", "Kronstraße 1", "Durchhausen" , new Date(1983-05-17) );
+		Resident resident2 = new Resident("Günter", "Papenheimer", "Weinstraße 231", "Durchhausen" , new Date(1999-02-27) );
+		Resident resident3 = new Resident("Jaqueline", "Guldi", "Siegesstraße 43", "Durchhausen" , new Date(1956-11-05) );
 		
 		ArrayList<Resident> repositoryList = new ArrayList<Resident>();
 		
